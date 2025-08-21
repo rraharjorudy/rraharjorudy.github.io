@@ -2,38 +2,84 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Rudy Raharjo | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Hello, I'm Rudy 👋</h1>
-        <p>Web Developer | Backend & Frontend Enthusiast</p>
-    </header>
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">Rudy<span>.</span></h2>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Rudy Raharjo</span></h1>
+            <p>Web Developer | Backend & Frontend Enthusiast</p>
+            <a href="cv.html" class="btn">View My CV</a>
+        </div>
+    </section>
+
+    <!-- About -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I’m passionate about building modern web apps and clean architecture projects.</p>
+        <p>
+            I'm a developer passionate about building modern web applications and exploring clean architecture.
+            Experienced in TypeScript, Go, PHP, and databases like MySQL & PostgreSQL.
+        </p>
     </section>
 
+    <!-- Projects -->
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/yourusername/project1">🚀 Project 1</a> – Description here</li>
-            <li><a href="https://github.com/yourusername/project2">📊 Project 2</a> – Description here</li>
-        </ul>
+        <div class="grid">
+            <div class="card">
+                <h3>ERP System</h3>
+                <p>A modular ERP system built with Go and PostgreSQL.</p>
+                <a href="https://github.com/rraharjorudy/erp-system" target="_blank">GitHub Repo</a>
+            </div>
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio built with HTML, CSS, and GitHub Pages.</p>
+                <a href="#">Live Demo</a>
+            </div>
+        </div>
     </section>
 
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>TypeScript</span>
+            <span>Go</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>PostgreSQL</span>
+            <span>ExpressJS</span>
+            <span>Clean Architecture</span>
+        </div>
+    </section>
+
+    <!-- Contact -->
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="rraharjo.rudy@gmail.com">rraharjo.rudy@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/rraharjorudy">@rraharjorudy</a></p>
-        <!-- <p>LinkedIn: <a href="#">Your LinkedIn</a></p> -->
+        <p>Email: <a href="mailto:rraharjo.rudy@gmail.com">rraharjo.rudy@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/rraharjorudy" target="_blank">@rraharjorudy</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/rraharjorudy</a></p>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>© 2025 Rudy Raharjo</p>
     </footer>
